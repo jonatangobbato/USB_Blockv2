@@ -2,7 +2,7 @@
 #include <MFRC522.h>  // Biblioteca para Mifare RC522
 
 #define SS_PIN 10
-#define RST_PIN 8
+#define RST_PIN 9
 
 MFRC522 mfrc522(SS_PIN, RST_PIN); // Cria a instancia MFRC522.
 
